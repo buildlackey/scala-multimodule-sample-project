@@ -2,9 +2,6 @@ package cats
 
 import org.scalatra.ScalatraServlet
 
-class CatsRestApi extends ScalatraServlet {
+class CatsRestApi {
 
-  get("/*") {
-    "meow!"
-  }
 }
